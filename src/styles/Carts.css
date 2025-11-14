@@ -1,0 +1,19 @@
+.carts-container {
+    width: 75%;
+    margin: 2rem auto;
+    border: 2px solid #ddd;
+    padding: 2rem;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.carts-items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    overflow-y: auto;
+    height: 560px;
+    align-items: start;
+    justify-items: center;
+}
